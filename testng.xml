@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Ecommerce Test Suite">
+	<test name="AmazonTest">
+		<classes>
+			<class name="com.webapp.test.amazon.AmazonHompageTest"></class>
+			<class name="com.webapp.test.amazon.AmazonNavLinkTest"></class>
+		</classes>
+	</test>
+	<test name="FaceBookTest">
+		<classes>
+			<class name="com.webapp.test.facebook.FaceboookLoginTest"></class>
+		</classes>
+	</test>
+	<test name="SampleTest">
+		<classes>
+			<class name="com.webapp.test.TestNgStandardAnnotationsTest"></class>
+		</classes>
+	</test>
+	
+	<test name="GroupTest">
+		<classes>
+			<class name="com.webapp.test.BrowserBasedGroupTest"></class>
+		</classes>
+	</test>
+</suite>
